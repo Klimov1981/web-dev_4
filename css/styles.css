@@ -24,6 +24,7 @@ input:focus, button:focus, textarea:focus {
 .header {
   padding-top: 40px;
   background-color: #f5f5f5;
+  background-size: cover;
 }
 
 .header-text {
@@ -162,5 +163,9 @@ input:focus, button:focus, textarea:focus {
   padding: 20px 66px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.work-proc {
+  padding-top: 21px;
 }
 /*# sourceMappingURL=styles.css.map */
