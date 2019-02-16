@@ -154,7 +154,7 @@ input:focus, button:focus, textarea:focus {
 .button {
   -webkit-box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
           box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
-  border-radius: 27px;
+  border-radius: 30px;
   border: 1px solid rgba(1, 2, 2, 0.07);
   background-color: #ff5c36;
   color: #ffffff;
@@ -166,19 +166,33 @@ input:focus, button:focus, textarea:focus {
 }
 
 .button_light {
+  width: 90%;
   background-color: #ffffff;
   opacity: 0.7;
   color: #000000;
+  padding: 20px;
+  margin-top: 66px;
 }
 
 .plus {
   vertical-align: middle;
   margin-right: 5px;
-  width: 15px;
-  height: 3px;
+  width: 16px;
+  height: 2px;
   display: inline-block;
   background-color: #000000;
   opacity: 0.7;
+}
+
+.plus:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  display: inline-block;
+  background-color: #000000;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .work-proc {
@@ -201,8 +215,9 @@ input:focus, button:focus, textarea:focus {
 }
 
 .proc-box__item {
+  width: 262px;
   text-align: center;
-  padding: 53px 15px 15px;
+  padding: 53px 5px 5px;
   -webkit-box-shadow: 0 0 35px rgba(20, 20, 21, 0.21);
           box-shadow: 0 0 35px rgba(20, 20, 21, 0.21);
   color: #ffffff;
