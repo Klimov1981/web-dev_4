@@ -166,12 +166,14 @@ input:focus, button:focus, textarea:focus {
 }
 
 .button_light {
+  position: absolute;
+  left: 50%;
+  margin-left: -45%;
+  bottom: -30px;
   width: 90%;
   background-color: #ffffff;
-  opacity: 0.7;
   color: #000000;
   padding: 20px;
-  margin-top: 66px;
 }
 
 .plus {
@@ -191,8 +193,8 @@ input:focus, button:focus, textarea:focus {
   height: 2px;
   display: inline-block;
   background-color: #000000;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: translateY(0px) translateX(-8px) rotate(90deg);
+          transform: translateY(0px) translateX(-8px) rotate(90deg);
 }
 
 .work-proc {
@@ -215,6 +217,7 @@ input:focus, button:focus, textarea:focus {
 }
 
 .proc-box__item {
+  position: relative;
   width: 262px;
   text-align: center;
   padding: 53px 5px 5px;
@@ -239,8 +242,12 @@ input:focus, button:focus, textarea:focus {
   background-color: #f74770;
 }
 
+.proc-item__text {
+  margin-bottom: 66px;
+}
+
 .proc-item__title {
-  opacity: 0.9;
+  opacity: 0.7;
   font-size: 20px;
   font-weight: 400;
 }
