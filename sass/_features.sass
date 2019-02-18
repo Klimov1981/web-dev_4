@@ -1,0 +1,36 @@
+.features
+ &-box
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  &__item
+   display: flex
+   justify-content: center
+   align-items: center
+   position: relative
+   text-align: center
+   height: 360px
+   flex-basis: 30%
+   margin-bottom: 27px
+   background:  #ff5c36 url('../images/fetures/features.jpg') center no-repeat
+   background-size: cover
+   
+   &:after
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+    background-color: rgba(0, 0, 0, 0)
+   &:hover:after
+    background-color: rgba(0 ,0 ,0 , .5)
+    
+    
+ &-item
+  &__text
+   z-index: 1
+   color: #ffffff
+   opacity: 0
+   &:hover
+    opacity: 1
