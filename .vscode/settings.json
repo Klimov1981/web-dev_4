@@ -1,0 +1,7 @@
+{
+ "editor.tabSize": 1,
+ "emmet.triggerExpansionOnTab": true,
+ "git.autofetch": true,
+ "files.autoSave": "onWindowChange",
+ "editor.fontSize": 16
+}

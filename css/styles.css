@@ -62,7 +62,6 @@ input:focus, button:focus, textarea:focus {
 
 .header-form {
   width: 372px;
-  margin-top: 110px;
   padding: 25px 39px;
   text-align: center;
   -webkit-box-shadow: 0 0 57px rgba(20, 20, 21, 0.2);
@@ -128,6 +127,8 @@ input:focus, button:focus, textarea:focus {
 }
 
 .section-text {
+  padding-top: 109px;
+  padding-bottom: 136px;
   text-align: center;
   opacity: 0.94;
   color: #626262;
@@ -137,7 +138,6 @@ input:focus, button:focus, textarea:focus {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 26px;
-  margin-top: 120px;
 }
 
 .section-text__descr {
@@ -152,8 +152,6 @@ input:focus, button:focus, textarea:focus {
 }
 
 .button {
-  -webkit-box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
-          box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
   border-radius: 30px;
   border: 1px solid rgba(1, 2, 2, 0.07);
   background-color: #ff5c36;
@@ -162,6 +160,11 @@ input:focus, button:focus, textarea:focus {
   font-weight: 400;
   padding: 20px 66px;
   margin-top: 20px;
+}
+
+.button:hover {
+  -webkit-box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
+          box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
   cursor: pointer;
 }
 
@@ -198,7 +201,6 @@ input:focus, button:focus, textarea:focus {
 }
 
 .work-proc {
-  padding-top: 21px;
   padding-bottom: 157px;
 }
 
@@ -209,7 +211,6 @@ input:focus, button:focus, textarea:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 109px;
 }
 
 .proc-box__icon {
@@ -221,9 +222,12 @@ input:focus, button:focus, textarea:focus {
   width: 262px;
   text-align: center;
   padding: 53px 5px 5px;
+  color: #ffffff;
+}
+
+.proc-box__item:hover {
   -webkit-box-shadow: 0 0 35px rgba(20, 20, 21, 0.21);
           box-shadow: 0 0 35px rgba(20, 20, 21, 0.21);
-  color: #ffffff;
 }
 
 .proc-box__item_blue {
@@ -261,6 +265,11 @@ input:focus, button:focus, textarea:focus {
 .fa-camera-retro {
   -webkit-transform: rotate(-15deg);
           transform: rotate(-15deg);
+}
+
+.features {
+  background-color: #fbfbfb;
+  padding-bottom: 109px;
 }
 
 .features-box {
