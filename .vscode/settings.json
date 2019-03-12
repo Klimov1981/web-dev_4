@@ -3,5 +3,6 @@
  "emmet.triggerExpansionOnTab": true,
  "git.autofetch": true,
  "files.autoSave": "onWindowChange",
- "editor.fontSize": 16
+ "editor.fontSize": 16,
+ "git.ignoreLimitWarning": true
 }
